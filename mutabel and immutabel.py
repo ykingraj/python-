@@ -19,12 +19,12 @@ Mutable sequences (collections.UserList, collections.UserString, collections.Use
 x = [1,2,3,4,5]
 
 y= x
-print (x)
-print (y)
+print (x) # 1,2,3,4,5
+print (y) # 1,2,3,4,5
 
 x[2] = 10
-print (x)
-print (y)
+print (x) # 1,2,10,4,5
+print (y) # 1,2,10,4,5
 
 
 '''
