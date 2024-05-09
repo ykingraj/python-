@@ -1,4 +1,4 @@
-sting =  "abc "
+sting =  "55 "
 number = 85
 boolean = False
 
@@ -144,3 +144,6 @@ y = float( number)
 print(y) #output 85.0
 print (type(y)) #output <class 'float'>
 '''
+y = float( sting )
+print(y) #output 85.0
+print (type(y)) #output <class 'float'>
