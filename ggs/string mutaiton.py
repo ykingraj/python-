@@ -1,14 +1,14 @@
-#String manipulation
-
 # concatenation
 x = "yash"
 y = "raj"
-print (x+y)
+z= x+y
+print (z)
+
 
 # String Formating
 name = "Yash"
 age = 20
-print("My age is {} and my age is {}".format(name,age))
+print("My name is {} and my age is {}".format(age,name))
 
 # Split function
 a = "yash, ravi, aditya, dev, aaquib,1,2,345"
@@ -29,4 +29,4 @@ print (str.replace("b","123"))
 
 # find function
 str = "abcdefghijk"
-print (str.find("d"))
+print (str.find("x"))

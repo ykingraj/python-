@@ -33,8 +33,8 @@ print (t)
 print (r)
 
 
-#del(x)
-#print(x)
+del(x)
+print(x)
 
 #x.clear()
 #print(x)
